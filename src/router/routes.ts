@@ -377,4 +377,5 @@ export const routes = [
       authRequired: false,
     },
   },
+  { path: "/:catchAll(.*)", redirect: "/" },
 ];
